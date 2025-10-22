@@ -1,230 +1,452 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="vi">
-
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MinhHy • Portfolio</title>
-  <link rel="icon" href="assets/icons/minhhylogo.svg" />
-  <!-- Core styles -->
-  <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" href="css/theme.css" />
-  <link rel="stylesheet" href="css/animation.css" />
-  <!-- Section styles -->
-  <link rel="stylesheet" href="css/sections/header.css" />
-  <link rel="stylesheet" href="css/sections/about-me.css" />
-  <link rel="stylesheet" href="css/sections/job.css" />
-  <link rel="stylesheet" href="css/sections/hobby.css" />
-  <link rel="stylesheet" href="css/sections/skills.css" />
-  <link rel="stylesheet" href="css/sections/projects.css" />
-  <link rel="stylesheet" href="css/sections/certificate.css" />
-  <link rel="stylesheet" href="css/sections/contact.css" />
-  <link rel="stylesheet" href="css/sections/footer.css" />
-  <!-- Responsive overrides last -->
-  <link rel="stylesheet" href="css/responsive.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Trần Gia Thịnh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-
 <body>
-  <!-- ===== Header / Navbar ===== -->
-  <header class="topbar">
-    <div class="nav">
-      <a href="#about" class="brand">
-        <img src="assets/icons/minhhylogo.svg" alt="MinhHy Logo" />
-      </a>
-
-      <button class="hamburger" aria-label="Mở menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-
-      <nav class="menu" id="menu">
-        <a href="#about">Giới thiệu</a>
-        <a href="#job">Nghề nghiệp</a>
-        <a href="#hobby">Sở thích</a>
-        <a href="#skills">Kỹ năng</a>
-        <a href="#certificate">Chứng chỉ</a>
-        <a href="#projects">Dự án</a>
-        <a href="#contact">Liên hệ</a>
-      </nav>
-    </div>
-  </header>
-  <!-- ===== About ===== -->
-<section class="section" id="about">
-  <div class="container about-hero reveal">
-    <div class="about-hero__content">
-      <h2 class="about-hero__title">Thông tin cá nhân</h2>
-      <ul class="about-hero__list">
-        <li>Xin chào, mình tên là <strong>Nguyễn Dương Minh Hy</strong></li>
-        <li>MSSV: <strong>077205010696</strong></li>
-        <li>Trường: <strong>ĐH Giao thông Vận tải TP.HCM (UTH)</strong></li>
-        <li>Ngành: <strong>Công nghệ thông tin</strong></li>
-        <li>Năm sinh: <strong>2005</strong></li>
-        <li>Giới tính: <strong>Nam</strong></li>
-      </ul>
-    </div>
-
-    <figure class="about-hero__media">
-      <img class="about-hero__avatar" src="assets/hy1.jpg" alt="Hy">
-    </figure>
-  </div>
-</section>
-
-  <!-- ===== Career / Job ===== -->
-<section class="section" id="job">
-<div class="container job reveal">
-<div class="job__media">
-<img src="assets/hy2.jpg" alt="career" />
-</div>
-
-
-<div class="job__content">
-<h2 class="section__title">Thông tin nghề nghiệp</h2>
-<p><strong>Hiện tại:</strong> Sinh viên UTH ngành CNTT</p>
-<p><strong>Mục tiêu:</strong> Trở thành Lập trình viên Game (Game Developer).</p>
-<p><strong>Định hướng ngắn hạn:</strong> Thành thạo Unity và C#.</p>
-<p><strong>Định hướng dài hạn:</strong> Xây dựng game indie cá nhân.</p>
-</div>
-</div>
-</section>
-
-  <!-- ===== Hobby ===== -->
-  <section class="section" id="hobby">
-    <div class="container hobby reveal">
-      <div>
-        <h2 class="section__title">Sở thích cá nhân</h2>
-        <ul class="hobby__list">
-          <li>💡 Nghe nhạc</li>
-          <li>⚽ Thể thao</li>
-          <li>🎮 Chơi game</li>
-          <li>🏕️ Du lịch</li>
-          <li>💻 Lập trình game</li>
-        </ul>
-      </div>
-      <figure class="hobby__media">
-        <img src="assets/hy3.jpg" alt="hobby" />
-      </figure>
-    </div>
-  </section>
-
-  <!-- ===== Skills ===== -->
-  <section class="section" id="skills">
-    <div class="container skills-section reveal">
-      <img src="assets/meme1.jpg" alt="skills meme" />
-
-      <div class="skills-content">
-        <h2 class="section__title">Ngôn ngữ & Kỹ năng</h2>
-        <p><strong>Ngôn ngữ:</strong> Tiếng Việt (native), Tiếng Anh</p>
-        <p><strong>Kỹ năng, công cụ, công nghệ:</strong><br>
-          Sử dụng được một số công cụ lập trình hiện đại, thích viết mã sạch, dễ bảo trì.</p>
-
-        <div class="skill-icons">
-          <div class="skill-item"><img src="assets/icons/html.svg" alt="HTML"><span>HTML</span></div>
-          <div class="skill-item"><img src="assets/icons/unity.svg" alt="Unity"><span>Unity</span></div>
-          <div class="skill-item"><img src="assets/icons/css.svg" alt="CSS"><span>CSS</span></div>
-          <div class="skill-item"><img src="assets/icons/figma.svg" alt="Figma"><span>Figma</span></div>
-          <div class="skill-item"><img src="assets/icons/C.svg" alt="C"><span>C</span></div>
-          <div class="skill-item"><img src="assets/icons/java.svg" alt="Java"><span>Java</span></div>
-          <div class="skill-item"><img src="assets/icons/JS.svg" alt="JavaScript"><span>JavaScript</span></div>
-          <div class="skill-item"><img src="assets/icons/github-mark.svg" alt="GitHub"><span>GitHub</span></div>
+    <!-- Fixed Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Trần Gia Thịnh</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Trang chủ</a>
+                <a href="#about" class="nav-link">Giới thiệu</a>
+                <a href="#career" class="nav-link">Mục tiêu</a>
+                <a href="#skills" class="nav-link">Kỹ năng</a>
+                <a href="#projects" class="nav-link">Dự án</a>
+                <a href="#gallery" class="nav-link">Ảnh</a>
+                <a href="#contact" class="nav-link">Liên hệ</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </nav>
 
+    <!-- Full-screen Banner -->
+    <section id="home" class="banner">
+        <div class="banner-overlay"></div>
+        <div class="banner-content">
+            <h1 class="banner-title">Trần Gia Thịnh</h1>
+            <p class="banner-subtitle">Full-stack Developer</p>
+            <p class="banner-description">Chuyên gia phát triển web với niềm đam mê tạo ra những trải nghiệm kỹ thuật số tuyệt vời</p>
+            <div class="banner-buttons">
+                <a href="#about" class="btn btn-primary">Khám phá</a>
+                <a href="#contact" class="btn btn-secondary">Liên hệ</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <p>Cuộn xuống</p>
+        </div>
+    </section>
+    </section>
 
+    <!-- Professional Introduction Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Giới thiệu bản thân</h2>
+            <div class="about-content">
+                <div class="about-profile">
+                    <div class="profile-avatar">
+                        <img src="images/avatar.jpg" alt="Trần Gia Thịnh" class="avatar-image">
+                    </div>
+                    <div class="profile-info">
+                        <h3 class="profile-name">Trần Gia Thịnh</h3>
+                        <p class="profile-position">Full-stack Developer</p>
+                        <div class="profile-bio">
+                            <p>Xin chào! Tôi là Trần Gia Thịnh, một sinh viên đam mê công nghệ thông tin với mục tiêu trở thành Full-stack Developer chuyên nghiệp. Tôi yêu thích việc giải quyết vấn đề thông qua lập trình và tạo ra những sản phẩm có giá trị thực tiễn.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="personal-details">
+                    <div class="details-grid">
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-birthday-cake"></i>
+                            </div>
+                            <div class="detail-content">
+                                <h4>Ngày sinh</h4>
+                                <p>29/03/2005</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="detail-content">
+                                <h4>Địa chỉ</h4>
+                                <p>TP. Hồ Chí Minh</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="detail-content">
+                                <h4>Điện thoại</h4>
+                                <p>0902 162 285</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="detail-content">
+                                <h4>Email</h4>
+                                <p>thinh290305@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Career Objectives 2x2 Grid -->
+    <section id="career" class="section">
+        <div class="container">
+            <h2 class="section-title">Mục tiêu nghề nghiệp</h2>
+            <div class="career-grid">
+                <div class="career-card">
+                    <div class="career-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Ngắn hạn (1-2 năm)</h3>
+                    <ul>
+                        <li>Nắm vững React & Node.js</li>
+                        <li>Học Cloud Computing (AWS)</li>
+                        <li>Tham gia dự án thực tế</li>
+                        <li>Xây dựng portfolio chuyên nghiệp</li>
+                    </ul>
+                </div>
+                <div class="career-card">
+                    <div class="career-icon">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <h3>Dài hạn (3-5 năm)</h3>
+                    <ul>
+                        <li>Trở thành Senior Developer</li>
+                        <li>Dẫn dắt team phát triển</li>
+                        <li>Đóng góp open source</li>
+                        <li>Khởi nghiệp công nghệ</li>
+                    </ul>
+                </div>
+                <div class="career-card">
+                    <div class="career-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Giá trị cốt lõi</h3>
+                    <ul>
+                        <li>Code chất lượng cao</li>
+                        <li>Học hỏi liên tục</li>
+                        <li>Làm việc nhóm hiệu quả</li>
+                        <li>Đổi mới sáng tạo</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- ===== Certificates  ===== -->
-  <section class="section" id="certificate">
-    <div class="container reveal">
-      <h2 class="section__title center">Chứng chỉ & Giải thưởng</h2>
+    <!-- Hobbies Grid -->
+    <section id="hobbies" class="section">
+        <div class="container">
+            <h2 class="section-title">Sở thích cá nhân</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Chơi game</h3>
+                    <p>Yêu thích các thể loại game chiến thuật và nhập vai, giúp rèn luyện khả năng tư duy logic và ra quyết định nhanh</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>Xem phim</h3>
+                    <p>Yêu thích xem phim để học hỏi, giải trí và khám phá những câu chuyện thú vị từ khắp nơi trên thế giới</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Nghe nhạc</h3>
+                    <p>Thích nghe nhạc để thư giãn, sáng tạo và tìm cảm hứng mới trong cuộc sống hàng ngày</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      <div class="certificate-section">
-        <p class="certificate__text">KHÔNG CÓ</p>
-        <img class="certificate__img" src="assets/meme2.jpg" alt="no cert meme" />
-      </div>
-    </div>
-  </section>
+    <!-- Languages & Skills with Progress Bars -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Ngôn ngữ & Kỹ năng</h2>
+            <div class="skills-container">
+                <div class="languages-section">
+                    <h3>Ngôn ngữ</h3>
+                    <div class="language-item">
+                        <div class="language-info">
+                            <span class="language-name">Tiếng Việt</span>
+                            <span class="language-level">100%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill vietnamese"></div>
+                        </div>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-info">
+                            <span class="language-name">Tiếng Anh</span>
+                            <span class="language-level">50%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill english"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="technical-skills">
+                    <h3>Kỹ năng kỹ thuật</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-level">70%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill html"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">CSS</span>
+                            <span class="skill-level">70%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill css"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-level">50%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill js"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">React</span>
+                            <span class="skill-level">0%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill react"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- ===== Projects ===== -->
-  <section class="section alt" id="projects">
-    <div class="container reveal">
-      <h2 class="section__title center">Đồ Án Thực Chiến</h2>
+    <!-- Certificates Section -->
+    <section id="certificates" class="section">
+        <div class="container">
+            <h2 class="section-title">Chứng chỉ & Giải thưởng</h2>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-times-circle"></i>
+                    </div>
+                    <h3>Không có</h3>
+                    <p class="certificate-org">Chưa có chứng chỉ</p>
+                    <p class="certificate-desc">Đang trong quá trình học tập và phát triển kỹ năng</p>
+                    <span class="certificate-year">-</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      <div class="projects grid">
-        <a class="project card-shadow" href="https://github.com/TrinhHoangChuong/MathBridge_" target="_blank"
-          rel="noopener">
-          <img src="assets/project1.jpg" alt="MathBridge" />
-          <div class="project__meta">
-            <h3>MathBridge</h3>
-            <p>Nền tảng dạy kèm toán trực tuyến</p>
-          </div>
-        </a>
+    <!-- Projects Grid with Images -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Dự án nổi bật</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="Portfolio Website">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p class="project-tech">HTML • CSS • JavaScript</p>
+                        <p>Website cá nhân giới thiệu bản thân với thiết kế hiện đại và responsive</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="MathBridge">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/TrinhHoangChuong/MathBridge_" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>MathBridge</h3>
+                        <p class="project-tech">Web Development</p>
+                        <p>Nền tảng dạy kèm toán trực tuyến</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project3.jpg" alt="Finance Dashboard">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/hyminh229" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Web quản lý tài chính cá nhân</h3>
+                        <p class="project-tech">Web Development</p>
+                        <p>Dashboard theo dõi chi tiêu</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project4.jpg" alt="Pill Reminder App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/hyminh229/Pill-Reminder-App" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Pill Reminder App</h3>
+                        <p class="project-tech">Mobile App</p>
+                        <p>Ứng dụng nhắc nhở uống thuốc</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <a class="project card-shadow" href="https://github.com/hyminh229" target="_blank" rel="noopener">
-          <img src="assets/project2.jpg" alt="Finance Dashboard" />
-          <div class="project__meta">
-            <h3>Web quản lý tài chính cá nhân</h3>
-            <p>Dashboard theo dõi chi tiêu</p>
-          </div>
-        </a>
+    <!-- Photo Gallery Masonry Layout -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title">Khoảnh khắc cuộc sống</h2>
+            <div class="gallery-masonry">
+                <div class="gallery-item">
+                    <img src="images/photo1.jpg" alt="Workspace">
+                    <div class="gallery-overlay">
+                        <h4>Không gian làm việc</h4>
+                        <p>Setup workstation tối ưu cho coding</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/photo2.jpg" alt="Conference">
+                    <div class="gallery-overlay">
+                        <h4>Hội thảo công nghệ</h4>
+                        <p>Tham gia sự kiện tech</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/photo3.jpg" alt="Team work">
+                    <div class="gallery-overlay">
+                        <h4>Làm việc nhóm</h4>
+                        <p>Collaboration với team</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/photo4.jpg" alt="Hackathon">
+                    <div class="gallery-overlay">
+                        <h4>Cuộc thi lập trình</h4>
+                        <p>Kinh nghiệm hackathon</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <a class="project card-shadow" href="https://github.com/hyminh229/Pill-Reminder-App" target="_blank"
-          rel="noopener">
-          <img src="assets/project3.jpg" alt="Pill Reminder" />
-          <div class="project__meta">
-            <h3>Pill Reminder App</h3>
-            <p>Ứng dụng nhắc nhở uống thuốc</p>
-          </div>
-        </a>
-      </div>
-    </div>
-  </section>
+    <!-- Contact with Social Links -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Liên hệ với tôi</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>thinh290305@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Điện thoại</h4>
+                            <p>0902 162 285</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Địa chỉ</h4>
+                            <p>TP. Hồ Chí Minh, Việt Nam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/thinh-git" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/trangia-thinh" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://facebook.com/trangia.thinh.31" target="_blank" class="social-link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://instagram.com/trangia.thinh" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- ===== Contact ===== -->
-  <section class="section" id="contact">
-    <div class="container contact-section reveal">
-      <h2 class="section__title">Thông tin liên hệ</h2>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Trần Gia Thịnh. Tất cả quyền được bảo lưu.</p>
+            <div class="footer-links">
+                <a href="#home">Trang chủ</a>
+                <a href="#about">Giới thiệu</a>
+                <a href="#projects">Dự án</a>
+                <a href="#contact">Liên hệ</a>
+            </div>
+        </div>
+    </footer>
 
-
-      <ul class="contact__list">
-        <li><img src="assets/icons/facebook.svg" alt="fb"><a href="https://facebook.com/minhy229"
-            target="_blank">facebook.com/minhy229</a></li>
-        <li><img src="assets/icons/github-mark.svg" alt="gh"><a href="https://github.com/hyminh229"
-            target="_blank">github.com/hyminh229</a></li>
-        <li><img src="assets/icons/instagram.svg" alt="ig"><a href="https://instagram.com/minhy229"
-            target="_blank">instagram.com/minhy229</a></li>
-        <li><img src="assets/icons/gmail.svg" alt="mail"><span>hyminh229@gmail.com</span></li>
-        <li><img src="assets/icons/phone.svg" alt="phone"><span>0799817429</span></li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- ===== Footer ===== -->
-  <footer>
-    <div class="container">
-      <p>© MinHy's Portfolio</p>
-    </div>
-  </footer>
-
-  <!-- ===== Scripts ===== -->
-  <script>
-    // Hamburger menu
-    const btn = document.querySelector('.hamburger');
-    const menu = document.getElementById('menu');
-    btn.addEventListener('click', () => {
-      const expanded = btn.getAttribute('aria-expanded') === 'true';
-      btn.setAttribute('aria-expanded', String(!expanded));
-      menu.classList.toggle('open');
-    });
-
-    // Reveal on scroll with IntersectionObserver
-    const io = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (e.isIntersecting) e.target.classList.add('visible');
-      })
-    }, { threshold: 0.15 });
-    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-  </script>
+    <script src="script.js"></script>
 </body>
-
 </html>
