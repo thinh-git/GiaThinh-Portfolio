@@ -897,8 +897,8 @@ body {
 }
 
 .personal-photo-frame {
-    width: 160px;
-    height: 200px;
+    width: 300px;
+    height: 500px;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.8) 100%);
     border-radius: 20px;
     display: flex;
