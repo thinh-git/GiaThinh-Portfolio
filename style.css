@@ -775,29 +775,29 @@ body {
 
 .gallery-overlay {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
-    color: white;
-    padding: 20px;
-    transform: translateY(100%);
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.7) 50%, rgba(255, 255, 255, 0.5) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    border-radius: 15px;
+}
+
+.gallery-personal-image {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
 }
 
-.gallery-item:hover .gallery-overlay {
-    transform: translateY(0);
-}
-
-.gallery-overlay h4 {
-    margin-bottom: 5px;
-    font-size: 1.2em;
-}
-
-.gallery-overlay p {
-    margin: 0;
-    opacity: 0.9;
-    font-size: 0.9em;
+.gallery-item:hover .gallery-personal-image {
+    transform: scale(1.05);
 }
 
 /* ===== CONTACT WITH SOCIAL LINKS ===== */
@@ -885,6 +885,47 @@ body {
     box-shadow: 0 10px 25px var(--shadow-blue);
     background: var(--gradient-blue);
     color: white;
+}
+
+/* ===== PERSONAL PHOTOS SECTION ===== */
+.personal-photos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.personal-photo-frame {
+    width: 160px;
+    height: 200px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.8) 100%);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.personal-photo-frame:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+.personal-photo {
+    width: 85%;
+    height: 85%;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.personal-photo-frame:hover .personal-photo {
+    transform: scale(1.1);
 }
 
 /* ===== FOOTER ===== */
@@ -1003,6 +1044,16 @@ body {
     .footer-links {
         gap: 20px;
     }
+
+    .personal-photos-container {
+        gap: 15px;
+    }
+
+    .personal-photo-frame {
+        width: 130px;
+        height: 160px;
+        margin: 8px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1030,6 +1081,16 @@ body {
     .btn {
         width: 200px;
         justify-content: center;
+    }
+
+    .personal-photos-container {
+        gap: 10px;
+    }
+
+    .personal-photo-frame {
+        width: 100px;
+        height: 130px;
+        margin: 6px;
     }
 }
 
